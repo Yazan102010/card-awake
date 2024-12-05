@@ -1,0 +1,4 @@
+jobs:
+  - name: keep-awake
+    schedule: "*/5 * * * *"  # Every 5 minutes
+    command: curl https://your-app-name.onrender.com/ping
